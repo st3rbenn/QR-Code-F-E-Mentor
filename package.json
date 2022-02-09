@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "sass-embedded": "^1.49.7"
+  },
+  "devDependencies": {
+    "sass": "^1.49.7"
   }
 }
