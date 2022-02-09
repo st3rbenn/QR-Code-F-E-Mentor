@@ -1,0 +1,14 @@
+{
+  "name": "00-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss:css --watch --style=compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass-embedded": "^1.49.7"
+  }
+}

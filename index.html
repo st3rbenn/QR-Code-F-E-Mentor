@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang=""><!-- Mettre le code langue du site dans l'attribut lang -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><!-- Mettre le titre de la page --></title>
+    <meta name="description" content=""><!-- Mettre la description du contenu de la page dans l'attribut content -->
+
+    <!-- Mettre ci-dessous les informations pour Open Graph (concerne notamment Facebook) - Voir https://ogp.me/-->
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <!-- Le minimum pour gérer les favicon : https://css-tricks.com/how-to-favicon-in-2021/ 
+    Icônes à générer : 
+    favicon.ico : 32x32
+    icon.svg : peu importe la taille, mais privilégier un format carré
+    apple-touch-icon.png : 180x180
+    192.png : 192x192
+    512.png : 512x512
+    -->
+    <link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="manifest" href="/manifest.webmanifest"><!-- voir le fichier manifest.webmanifest -->
+
+    <!-- A terme : n'appeler qu'une seule feuille de style minifiée -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/helpers.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Exemple de navigation avec burger menu accessible (appeler le js et ajouter le css qui va bien) -->
+    <nav class="main-nav" aria-label="Primary">
+        <button class="toggle-menu" aria-label="Open menu" aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul id="menu" class="menu" role="list" hidden>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Link 1</a>
+            </li>
+        </ul>
+    </nav> 
+
+    <script src="js/nav.js"></script>
+
+</body>
+</html>
